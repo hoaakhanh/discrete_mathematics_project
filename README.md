@@ -29,14 +29,14 @@ The empirical data extracted from benchmarking the **ATT48** instance reveals a 
 | **Nearest Insertion + Relocate** | $37994.32$ | **34665.45** | $3328.87$ | 8.76% | $72.452 \text{ ms}$ |
 | **Nearest Neighbor + Relocate** | $40526.42$ | $35896.90$ | **4629.52** | **11.42%** | **68.827 ms** |
 
-### 💡 Key Takeaways & Strategic Synergy
+###  Key Takeaways & Strategic Synergy
 *   **The Power of Cooperative Synergy (NI + Relocate):** Nearest Insertion constructs a globally balanced baseline geometry. This allows the Relocate operator to focus on micro-adjustments, perfectly untangling paths to achieve the absolute best routing cost of **$34665.45$**.
 *   **The Initialization Bottleneck (NN + Relocate):** While Nearest Neighbor is ultra-fast ($1.479\text{ ms}$ standalone), its localized greediness creates massive macro-level distortions. The Relocate operator lacks the global lookahead power to completely repair this mutated structure, causing it to get prematurely trapped in a poorer local optimum ($35896.90$).
 *   **Industrial Applicability:** For real-time, dynamic dispatching, raw **NN** is ideal due to sub-2ms latency. For strategic logistics (reducing fuel and carbon footprints), the **NI + Relocate** configuration is the superior operational choice.
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 Make sure you have Python installed along with the required libraries for visualization:
