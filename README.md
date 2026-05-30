@@ -38,7 +38,4 @@ The empirical data extracted from benchmarking the **ATT48** instance reveals a 
 
 ##  Getting Started
 
-### Prerequisites
-Make sure you have Python installed along with the required libraries for visualization:
-```bash
-pip install matplotlib numpy
+
